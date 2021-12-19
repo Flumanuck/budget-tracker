@@ -44,7 +44,7 @@ function checkDatabase() {
           const budgetObjectStore = transaction.objectStore("new_budget");
           budgetObjectStore.clear();
 
-          alert("All saved budgets has been submitted!");
+          alert("All saved budgets have been submitted!");
         })
         .catch((err) => {
           console.log(err);
